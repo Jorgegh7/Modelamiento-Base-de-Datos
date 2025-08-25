@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B480BF0-E74C-D54C-247E-1174A533C026" name="PAIS_ORIGEN">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:00:27 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pais" id="49ABB3D6-20EC-1298-AEC8-170D8D67734E">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:00:50 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="78F63E24-C22B-42FF-62CE-477084C0DE32">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:00:58 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FDF015AE-3622-9871-CA7D-6493299CE7B7" name="PAIS_ORIGEN PK">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:00:57 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49ABB3D6-20EC-1298-AEC8-170D8D67734E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

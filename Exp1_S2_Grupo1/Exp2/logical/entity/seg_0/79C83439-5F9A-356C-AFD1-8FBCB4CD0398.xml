@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79C83439-5F9A-356C-AFD1-8FBCB4CD0398" name="ADMINISTRADOR">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 01:34:58 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="horas_extra" id="DACE9516-16FE-3937-89EB-E42C0251FE87">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 01:35:30 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="B6EFAB59-2FA8-A7CC-EEE0-4F5F7E3C59A1">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 10:30:45 UTC</createdTime>
+<generatorID>1048A3C3-6EA7-B506-00C7-DF924E3494F0</generatorID>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<referedAttribute>E1BFAB8F-AA85-3E26-B263-888BE67E5C7D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

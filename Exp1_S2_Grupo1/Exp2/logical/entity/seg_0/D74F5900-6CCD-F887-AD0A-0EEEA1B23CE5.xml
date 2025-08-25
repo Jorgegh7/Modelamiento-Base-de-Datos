@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D74F5900-6CCD-F887-AD0A-0EEEA1B23CE5" name="PILOTO">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 01:33:01 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="horas_vuelo" id="BAF5F40D-29BD-86CB-B1E6-774C4175C853">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 01:33:55 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="6E973E20-6F92-37AD-931B-254938B1FA09">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:27:14 UTC</createdTime>
+<generatorID>EC0E768F-B7C8-DC81-4345-153A844A250B</generatorID>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<referedAttribute>CDBA575A-494B-A84A-9490-F7EE29050573</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="177C1754-2BCC-7A64-A896-B80DDA8C78E9">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 10:30:59 UTC</createdTime>
+<generatorID>6097B13F-5F8D-83A0-28B2-0EFEE504372D</generatorID>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<referedAttribute>E1BFAB8F-AA85-3E26-B263-888BE67E5C7D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5FEDA634-3974-BE41-9076-12C10BB65820" name="PILOTO PK">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:27:14 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6E973E20-6F92-37AD-931B-254938B1FA09</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

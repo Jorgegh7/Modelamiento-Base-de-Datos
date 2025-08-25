@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="78C512FF-E818-EAB1-F922-EC5F48FD55EE" name="AEROPUERTO_DESTINO">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:05:59 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_aeropuerto" id="60F7BD91-543C-B72A-D556-EA64154B8795">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:06:11 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="6B0DCB31-91D9-972E-F728-D9F3FBCC91A6">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:06:29 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="8F131E2F-AF9C-B8BC-FD6A-13FBAA742730">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:07:55 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ciudad" id="785FA939-9E39-D3E4-D415-838AA74540CF">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:13:02 UTC</createdTime>
+<generatorID>8E673C53-ED8A-3DF6-D5CA-2057ADE4CC37</generatorID>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<referedAttribute>8D0D67CF-871F-E4D1-BCE9-C88954F6091B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B0B27E78-F93F-4543-BC74-CF905AC93C7C" name="AEROPUERTO_DESTINO PK">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:06:28 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>60F7BD91-543C-B72A-D556-EA64154B8795</attributeRef>
+<attributeRef>785FA939-9E39-D3E4-D415-838AA74540CF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

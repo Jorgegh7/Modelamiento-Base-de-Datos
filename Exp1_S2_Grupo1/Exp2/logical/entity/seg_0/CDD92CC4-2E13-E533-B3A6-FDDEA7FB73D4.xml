@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDD92CC4-2E13-E533-B3A6-FDDEA7FB73D4" name="CIUDAD_DESTINO">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:04:32 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ciudad" id="8D0D67CF-871F-E4D1-BCE9-C88954F6091B">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:04:50 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="DD4746D2-D24C-D968-8E7E-A0684DEACBB3">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:05:10 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pais" id="8AAA15AE-1C08-C044-EB87-E3E5801A319B">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:13:22 UTC</createdTime>
+<generatorID>5CA9C9F7-688B-DECF-2978-0B81D1B3E324</generatorID>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<referedAttribute>E2145812-2853-ECCC-EBA7-94B5EB50EAE3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CB036839-3204-7823-1E90-6A84D860636A" name="CIUDAD_DESTINO PK">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:05:26 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8D0D67CF-871F-E4D1-BCE9-C88954F6091B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

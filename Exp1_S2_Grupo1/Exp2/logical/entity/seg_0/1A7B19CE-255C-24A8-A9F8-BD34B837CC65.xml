@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A7B19CE-255C-24A8-A9F8-BD34B837CC65" name="VUELO">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 01:43:25 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_vuelo" id="9FC40A14-B79F-24D5-95CB-D12CF9F8FE07">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 01:43:31 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_despegue" id="68AFA462-97A7-D0AA-9DED-F0FE95AFF369">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 01:43:53 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_llegada" id="E88104D4-8721-2726-B0DC-115A9669BA34">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 01:44:23 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_salida" id="2D3EDA49-85B8-4DF7-64A9-9B9B910692A1">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 01:55:44 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_llegada" id="123B6A52-07CC-4109-0062-F3DDDE0C4B6F">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:09:10 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_aeropuerto" id="D43AC56A-D450-E565-1618-A0AD1BB38CE7">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:11:14 UTC</createdTime>
+<generatorID>3CB192A1-C6E3-CABA-065C-5D2CB8318D02</generatorID>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<referedAttribute>091A8CE7-E7F7-82F9-D22C-FC310DC7DB3F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ciudad" id="CA3A872A-18DE-E57D-58EB-27CB5B948D23">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:11:15 UTC</createdTime>
+<generatorID>3CB192A1-C6E3-CABA-065C-5D2CB8318D02</generatorID>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<referedAttribute>4148528F-BC1A-C539-2AB1-ED3A6A8F8D62</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pais" id="053AF040-EBA2-7970-4985-FDFFF8DF47E2">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:11:15 UTC</createdTime>
+<generatorID>3CB192A1-C6E3-CABA-065C-5D2CB8318D02</generatorID>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<referedAttribute>64D76B50-8125-CA04-9F5B-BE713DB8ED2D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_aeropuerto1" id="3660964B-B2E6-FD1C-B44F-6FA927A488A4">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:12:35 UTC</createdTime>
+<generatorID>2B805EF2-CFBA-F7D5-7DF3-B8B160D9CACF</generatorID>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<referedAttribute>60F7BD91-543C-B72A-D556-EA64154B8795</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ciudad1" id="218B3600-F6F9-534B-71BC-642AF6F50AB1">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:13:02 UTC</createdTime>
+<generatorID>2B805EF2-CFBA-F7D5-7DF3-B8B160D9CACF</generatorID>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<referedAttribute>785FA939-9E39-D3E4-D415-838AA74540CF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="64B88705-BE02-A9F2-5BA0-E2B9BE6569ED">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 02:29:58 UTC</createdTime>
+<generatorID>81FAD724-1B97-B7CC-BCE2-D6013AAD502D</generatorID>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<referedAttribute>CDBA575A-494B-A84A-9490-F7EE29050573</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="43FF5BCF-CC63-4F09-B1A2-673E4AC2666D" name="VUELO PK">
+<createdBy>jorge</createdBy>
+<createdTime>2025-08-22 01:43:56 UTC</createdTime>
+<ownerDesignName>Exp2</ownerDesignName>
+<engineerTo>
+<item key="082E7627-956D-65E7-3553-40F9AD20B39E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9FC40A14-B79F-24D5-95CB-D12CF9F8FE07</attributeRef>
+<attributeRef>D43AC56A-D450-E565-1618-A0AD1BB38CE7</attributeRef>
+<attributeRef>CA3A872A-18DE-E57D-58EB-27CB5B948D23</attributeRef>
+<attributeRef>053AF040-EBA2-7970-4985-FDFFF8DF47E2</attributeRef>
+<attributeRef>64B88705-BE02-A9F2-5BA0-E2B9BE6569ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
